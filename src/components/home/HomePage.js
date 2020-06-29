@@ -1,9 +1,8 @@
 import React from 'react'
 import fire_background from './asset/fire_background.mp4'
 import Button from '@material-ui/core/Button'
-//import olami_black from './asset/olami_black.png'
 import olami_dp from './asset/olami_dp.png'
-//import Avatar from '@material-ui/core/Avatar'
+import { Link } from 'react-scroll'
 import './HomePage.css'
 
 
@@ -14,14 +13,16 @@ const HomePage = () => {
             <div className="homepage-details" >
 
                 <div className="homepage-image" >
-                  <img src={olami_dp} alt="Sulaimon O" />
+                    <img src={olami_dp} alt="Sulaimon O" />
                 </div>
 
-                <h2>Sulaimon Olaniran</h2>
+                <h2>Sulaimon <span className="last-name" >Olaniran</span></h2>
                 <p>Junior Front End Developer</p>
             </div>
 
-            <Button variant="contained" color="secondary" >More About Me...</Button>
+            <Link activeClass="active" to="aboutsection" spy={true} smooth={true} offset={-100} duration={500}>
+                <Button variant="contained" color="secondary" >More About Me...</Button>
+            </Link>
         </div>
     )
 }

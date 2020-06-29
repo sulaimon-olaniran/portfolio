@@ -45,3 +45,7 @@ h1{
     height: 100%;
     object-fit: cover;
 }
+
+.last-name{
+    color: orangered;
+}
