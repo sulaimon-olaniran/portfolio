@@ -6,12 +6,14 @@ import scss from './assets/scss.png'
 import firebase from './assets/firebase.png'
 import material_ui from './assets/material_ui.png'
 import github from './assets/github.png'
+import redux from './assets/redux.png'
+import netlify from './assets/netlify.png'
 
 
 const About = () => {
     return (
         <div className="about-container" >
-            <h1>About <span className="style-me-span" >Me</span></h1>
+            <h1>About <span className="style-word-span" >Me</span></h1>
 
             <div className="about-information" >
                 <p>
@@ -85,6 +87,20 @@ const About = () => {
                         <img src={github} alt="GitHub" />
                     </div>
                     <h4>GitHub</h4>
+                </div>
+
+                <div className="each-tech-container" >
+                    <div className="tech-image-container" >
+                        <img src={netlify} alt="Netlify" />
+                    </div>
+                    <h4>Netlify</h4>
+                </div>
+
+                <div className="each-tech-container" >
+                    <div className="tech-image-container" >
+                        <img src={redux} alt="Redux" />
+                    </div>
+                    <h4>Redux</h4>
                 </div>
 
             </div>

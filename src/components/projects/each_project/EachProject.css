@@ -1,0 +1,84 @@
+.images-container{
+    width: 100%;
+    height: 15rem ;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.each-image-container{
+    min-width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider-button{
+    z-index: 2;
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5)
+}
+
+.project-details-container{
+    width: 100%;
+    min-height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.project-sumamry{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+li{
+    margin: 7px 0;
+}
+
+.project-details-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.more-details-button{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+h5{
+    font-size: 1rem;
+    color: saddlebrown;
+    margin-top: 10px;
+}
