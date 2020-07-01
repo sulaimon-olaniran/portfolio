@@ -7,6 +7,7 @@ import About from './components/about/About'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import Projects from './components/projects/Projects'
+import Skills from './components/skills/Skills'
 
 function App() {
   return (
@@ -19,6 +20,10 @@ function App() {
 
       <Element name="aboutsection" >
         <About />
+      </Element>
+
+      <Element name="skillsection">
+        <Skills />
       </Element>
 
       <Element name="projectsection" >

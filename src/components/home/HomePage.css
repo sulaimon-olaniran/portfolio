@@ -1,26 +1,34 @@
 .homepage-container{
     width: 100%;
     min-height: 90vh;
+    margin: 0;
+    margin-top: 10vh;
+    background: url('./asset//home_background_three.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rubberBand{
+    width: inherit;
+    height: inherit;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0;
-    margin-top: 10vh;
-    background: black;
 }
-
+/* 
 video{
     width: 100%;
     min-height: 90vh;
     object-fit: cover;
-    /* position: fixed; */
+    position: fixed; 
     position: absolute;
-}
+} */
+
 h1{
     color: white;
 }
 .homepage-details{
-    z-index: 2;
+    /* z-index: 2; */
     height: 20rem;
     width: 90%;
     display: flex;
