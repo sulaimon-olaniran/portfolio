@@ -16,3 +16,8 @@
     align-items: center;
     justify-content: space-around;
 }
+
+small{
+    color: rgb(241, 64, 44);
+    font-weight: 600;
+}

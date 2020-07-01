@@ -42,7 +42,7 @@ const NavBar = () => {
                     <Link activeClass="active" to="skillsection" smooth={true} offset={-100} duration={500}>
                         <Zoom in={drawer} style={{ transitionDelay: drawer ? '400ms' : '0ms' }}>
                             <Button onClick={closeDrawer} color="secondary" variant="contained" size="small" >Skills</Button>
-                        </Zoom> 
+                        </Zoom>
                     </Link>
 
                     <Link activeClass="active" to="projectsection" smooth={true} offset={-100} duration={500}>
@@ -56,6 +56,12 @@ const NavBar = () => {
                             <Button onClick={closeDrawer} color="secondary" variant="contained" size="small" >Contact</Button>
                         </Zoom>
                     </Link>
+
+                    <a href="https://drive.google.com/file/d/1ZVYeNBJp52IzOQcRZLkdRnmOLPQ5aFyj/view?usp=sharing"  target="_blank" rel="noopener noreferrer" >
+                        <Zoom in={drawer} style={{ transitionDelay: drawer ? '700ms' : '0ms' }}>
+                            <Button onClick={closeDrawer} color="secondary" variant="contained" size="small" >Resume</Button>
+                        </Zoom>
+                    </a>
 
                 </div>
             </Drawer>

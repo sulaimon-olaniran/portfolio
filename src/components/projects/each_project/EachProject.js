@@ -106,10 +106,10 @@ const EachProject = ({ project }) => {
                     </ul>
 
                     <div className="project-details-buttons" >
-                        <a href={project.codeUrl}  >
+                        <a href={project.codeUrl}  target="_blank" rel="noopener noreferrer" >
                             <Button color="primary"  variant="outlined" >Code</Button>
                         </a>
-                        <a href={project.liveUrl}>
+                        <a href={project.liveUrl}  target="_blank" rel="noopener noreferrer" >
                             <Button color="primary" variant="outlined" >Live</Button>
                         </a>
                     </div>
