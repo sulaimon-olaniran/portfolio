@@ -1,6 +1,6 @@
 .footer-container{
     width: 100%;
-    min-height: 5rem;
+    min-height: 7rem;
     background: white;
     display: flex;
     flex-direction: column;
@@ -20,6 +20,7 @@
 small{
     color: rgb(241, 64, 44);
     font-weight: 600;
+    margin-top: 1rem;
 }
 
 @media(min-width :720px){

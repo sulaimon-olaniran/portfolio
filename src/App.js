@@ -30,7 +30,6 @@ function App() {
         <Projects />
       </Element>
 
-
       <Element name="contactsection" >
         <Contact />
       </Element>

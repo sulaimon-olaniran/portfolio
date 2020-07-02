@@ -63,32 +63,10 @@ const EachProject = ({ project }) => {
                     )
                 })}
                 <div className="slider-button" >
-                    <ArrowBackIosIcon onClick={handlePrevious} color="secondary" />
-                    <ArrowForwardIosIcon onClick={handleNext} color="secondary" />
+                    <ArrowBackIosIcon onClick={handlePrevious} color="secondary" fontSize="large" />
+                    <ArrowForwardIosIcon onClick={handleNext} color="secondary" fontSize="large" />
                 </div>
             </div>
-
-
-
-            {/* <Modal
-                aria-labelledby="transition-modal-title"
-                aria-describedby="transition-modal-description"
-                className={classes.modal}
-                open={showDetails}
-                onClose={closeDetailsModal}
-                closeAfterTransition
-                BackdropComponent={Backdrop}
-                BackdropProps={{
-                    timeout: 500,
-                }}
-            >
-                <Zoom in={showDetails} >
-                    <div className="view-image-container" >
-                        <h1>{project}</h1>
-                    </div>
-                </Zoom>
-
-            </Modal> */}
             <Collapse in={expand} timeout={500} unmountOnExit>
                 <div className="project-details-container" >
                     <div className="project-summary" >

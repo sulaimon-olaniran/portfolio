@@ -23,7 +23,7 @@ const HomePage = () => {
                     </div>
 
                     <h2>Sulaimon <span className="last-name" >Olaniran</span></h2>
-                    <p>Junior Front End Developer</p>
+                    <p>A Front End Developer</p>
                 </div>
 
                 <Link activeClass="active" to="aboutsection" spy={true} smooth={true} offset={-100} duration={500}>

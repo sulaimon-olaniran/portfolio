@@ -13,8 +13,8 @@ const About = () => {
             <ScrollAnimation animateIn='bounceInUp' >
                 <p>
                         I'm a self-taught developer and I posses a firm knowledge of HTML, CSS and JavaScript.
-                        I also have a good knowledge on React.Js. Although I'm currently a front end developer
-                        I have goals to becoming a Full-Stack developer in the nearest future.
+                        I also have a good knowledge on React.Js. I am currently looking for roles as a Junior front end developer
+                        with opportunities to learn and becoming a full stack developer.
                     
                 </p>
                 </ScrollAnimation>

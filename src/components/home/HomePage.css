@@ -3,7 +3,7 @@
     min-height: 90vh;
     margin: 0;
     margin-top: 10vh;
-    background: url('./asset//home_background_three.jpg');
+    background: url('./asset/home_background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -37,6 +37,7 @@ h1{
    border-radius: 50%;
    overflow: hidden;
    background: rgb(53, 53, 53);
+   background : transparent;
   
 }
 
