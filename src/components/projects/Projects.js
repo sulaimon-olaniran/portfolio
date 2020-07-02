@@ -11,7 +11,7 @@ const Projects = () => {
     <div className="projects-container" >
      <ScrollAnimation animateIn="tada" ><h1><span className="style-word-span" >My</span> Projects</h1></ScrollAnimation>
 
-
+     <div className="projects-listing-container" >
       {projects.map((project, i) => {
         return (
           <ScrollAnimation animateIn='bounceInUp' className="each-project-container" key={i}>
@@ -19,7 +19,7 @@ const Projects = () => {
           </ScrollAnimation>
         )
       })}
-
+    </div>
 
     </div>
   )
