@@ -28,7 +28,7 @@ h1{
 }
 
 .each-project-container{
-    width: 80%;
+    width: 20rem;
     min-height: 23rem;
     border-radius: 25px;
     background: rgb(249, 250, 249);
@@ -39,20 +39,14 @@ h1{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(138, 137, 137, 0.19);
 }
 
-@media(min-width :720px){
-    .each-project-container{
-        width: 60%;
-    }
-}
-
-@media(min-width :960px){
+@media(min-width :760px){
     .projects-listing-container{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
     }
      .each-project-container{
-         width: 40%;
+         width: 25rem;
      }
 }
 

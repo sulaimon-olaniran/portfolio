@@ -17,7 +17,7 @@ const Footer = () => {
                 <a href="https://wa.me/2348088614722" target="_blank" rel="noopener noreferrer"><WhatsAppIcon color="primary" /></a>
                 <a href="https://www.linkedin.com/in/oladipupo-olaniran-479672187/" target="_blank" rel="noopener noreferrer" ><LinkedInIcon color="primary" /></a>
             </div>
-            <Link activeClass="active" to="homesection" smooth={true} offset={-100} duration={1000}>
+            <Link activeClass="active" to="homesection" smooth={true} offset={-100} duration={1500}>
                 <ArrowUpwardIcon fontSize="large" color="secondary" />
             </Link>
             <small>Sulaimon-Olaniran 2020</small>

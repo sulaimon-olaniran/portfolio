@@ -15,41 +15,112 @@ import quiz_two from './assets/quiz_two.png'
 import quiz_three from './assets/quiz_three.png'
 import quiz_four from './assets/quiz_four.png'
 import quiz_five from './assets/quiz_five.png'
+import pepsi_one from './assets/pepsi_one.png'
+import pepsi_two from './assets/pepsi_two.png'
+import pepsi_three from './assets/pepsi_three.png'
+import pepsi_four from './assets/pepsi_four.png'
+import javascript_quiz_one from './assets/javascript_quiz_one.png'
+import tic_tac_toe_one from './assets/tic_tac_toe_one.png'
+import os_photos_one from './assets/os_photos_one.png'
+import os_photos_two from './assets/os_photos_two.png'
+import os_photos_three from './assets/os_photos_three.png'
+import os_photos_four from './assets/os_photos_four.png'
+import res_finder_one from './assets/res_finder_one.png'
+import res_finder_two from './assets/res_finder_two.png'
+import res_finder_three from './assets/res_finder_three.png'
+import res_finder_four from './assets/res_finder_four.png'
+import res_finder_five from './assets/res_finder_five.png'
+import res_finder_six from './assets/res_finder_six.png'
+import react_calc_one from './assets/react_calc_one.png'
 
-export const projects = [
+export const projects = [ 
+    {
+        name : 'Simple JavaScript Tic-Tac-Toe',
+        techs : ['HTML', 'CSS', 'JavaScript'],
+        images : [tic_tac_toe_one],
+        summary : "not the cutest but one of My first projects writing JavaScript, the famous tic-tac-toe game, hosted on Codepen.",
+        codeUrl : "https://codepen.io/Sulaimon-Olaniran/pen/NWxzmVg",
+        liveUrl : "https://codepen.io/Sulaimon-Olaniran/pen/NWxzmVg"
+    },
+
+    {
+        name : "Pepsi Landing Page",
+        techs : ['HTML', 'CSS', 'JavaScript', 'JQuery'],
+        images : [pepsi_one, pepsi_two, pepsi_three, pepsi_four],
+        summary : "A single landing page example for pepsi using HTML/CSS and little bit of JavaScript and JQuery for navbar and animation, hosted on Netlify.",
+        codeUrl : "https://github.com/sulaimon-olaniran/html-pepsi-landing-page",
+        liveUrl : "https://sulaimon-pepsi.netlify.app/"
+    },
+
+    {
+        name : 'React Calculator',
+        techs : ['HTML', 'CSS', 'React'],
+        images : [react_calc_one],
+        summary : "This react calculator was my first app built ever using React",
+        codeUrl : 'https://github.com/sulaimon-olaniran/react-calculator',
+        liveUrl : 'https://sulaimon-olaniran.github.io/react-calculator/'
+    },
+
+    {
+        name : "Simple JavaScript Quiz",
+        techs : ['HTML', 'CSS', 'JavaScript', 'ES6'],
+        images : [javascript_quiz_one],
+        summary : "A simple JavaScript question and answer quiz, hosted on Netlify.",
+        codeUrl : "https://github.com/sulaimon-olaniran/javascript-quiz",
+        liveUrl : "https://os-javascript-quiz.netlify.app/"
+    },
+
+    {
+        name : "Photographer Landing Page",
+        techs : ['HTML', 'CSS', 'JavaScript', 'JQuery'],
+        images : [os_photos_one, os_photos_two, os_photos_three, os_photos_four],
+        summary : "A single landing page sample for a photographer using HTML/CSS and little bit of JavaScript and JQuery, hosted on Netlify.",
+        codeUrl : "https://github.com/sulaimon-olaniran/html-photographer-page",
+        liveUrl : "https://os-photos.netlify.app/"
+    },
+
     {
         name: "Weather Call",
-        techs: ["HTML", "CSS", "React.JS", "GitHub", "Netlify", "OpenWeatherDB API"],
+        techs: ["HTML", "CSS", "React", "GitHub", "Netlify", "OpenWeatherDB API"],
         images: [weather_one, weather_two],
-        summary: "This app enables users check the weather conditions of any available location around the world.",
+        summary: "This app enables users check the weather conditions of any available location around the world, hosted on Netlify.",
         codeUrl: "https://github.com/sulaimon-olaniran/weather-call",
         liveUrl: "https://weather-call.netlify.app/"
     },
 
     {
         name: "OS Movies",
-        techs: ["HTML", "CSS", "React.JS", "GitHub", "Netlify", "TheMovieDB API"],
+        techs: ["HTML", "CSS", "React", "GitHub", "Netlify", "TheMovieDB API"],
         images: [ movie_one, movie_two, movie_three, movie_four, movie_five ],
-        summary: "This app provides details for movies based on user search's options and also most popular movies or upcoming movies.",
+        summary: "This app provides details for movies based on user search's options and also most popular movies or upcoming movies, hosted on Netlify.",
         codeUrl: "https://github.com/sulaimon-olaniran/react-movieDB-app",
         liveUrl: "https://os-movie.netlify.app/"
 
     },
 
     {
+        name : "OS Restaurant-Finder",
+        techs : ['HTML', 'SCSS', 'React', 'Netlify', 'Github', 'Zomato API'],
+        images : [res_finder_one, res_finder_two, res_finder_three, res_finder_four, res_finder_five, res_finder_six],
+        summary : "this app provides details for availble restaurant arround you in areas supported by the api, hosted on Netlify",
+        codeUrl : "https://github.com/sulaimon-olaniran/react-restaurant-finder",
+        liveUrl : "https://os-restaurant-finder.netlify.app/"
+    },
+
+    {
         name: "Cakes Treats",
-        techs : ["HTML", "CSS", "SCSS", "React.JS", "Firebase", "Formik", "Netlify", "Material UI CSS", "Paystack"],
+        techs : ["HTML", "CSS", "SCSS", "React", "Firebase", "Formik", "Netlify", "Material UI CSS", "Paystack"],
         images : [ cake_one, cake_two, cake_three, cake_four, cake_five ],
-        summary : "This app is a cake app for placing custom orders for cake and also in app purchasing of ready made availble cakes.",
+        summary : "This app is a cake app for placing custom orders for cake and also in app purchasing of ready made availble cakes, hosted on Netlify.",
         codeUrl : "https://github.com/sulaimon-olaniran/cakes-ordering-app",
         liveUrl : "https://leemahstreats.netlify.app/"
     },
 
     {
         name : "OS Quiz",
-        techs : ["HTML", "SCSS", "CSS", "React JS", "Firebase", "Formik", "Email JS", "Material UI CSS", "Netlify"],
+        techs : ["HTML", "SCSS", "CSS", "React", "Firebase", "Formik", "Email JS", "Material UI CSS", "Netlify"],
         images : [ quiz_one, quiz_two, quiz_three, quiz_four, quiz_five ],
-        summary : "A quiz app using firebase as the backend help users create an account, take quizes, have their points recorded and go head to head with other users on the ranking table.",
+        summary : "A quiz app using firebase as the backend help users create an account, take quizes, have their points recorded and go head to head with other users on the ranking table, hosted on Netlify.",
         codeUrl : "https://github.com/sulaimon-olaniran/react-quiz-webapp",
         liveUrl : "https://os-quiz.netlify.app/"
     }

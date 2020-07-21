@@ -4,6 +4,7 @@
     margin: 0;
     margin-top: 10vh;
     background: url('./asset/home_background.jpg');
+    background-color: rgb(44, 44, 44);
     background-size: cover;
     background-repeat: no-repeat;
 }

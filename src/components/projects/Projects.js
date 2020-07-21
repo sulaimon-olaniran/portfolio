@@ -6,10 +6,10 @@ import ScrollAnimation from 'react-animate-on-scroll'
 
 
 const Projects = () => {
-  //const projects = [1, 2, 3, 4, 5]
   return (
     <div className="projects-container" >
      <ScrollAnimation animateIn="tada" ><h1><span className="style-word-span" >My</span> Projects</h1></ScrollAnimation>
+     <p>These are the top 10 projects I've worked on so far;</p>
 
      <div className="projects-listing-container" >
       {projects.map((project, i) => {

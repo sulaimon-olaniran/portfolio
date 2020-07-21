@@ -17,13 +17,24 @@
     align-items: center;
 }
 
+.MuiSvgIcon-root{
+    cursor: pointer;
+}
+
+.show-slider-button{
+    display: flex;
+}
+
+.hide-slider-button{
+    display: none;
+}
+
 .slider-button{
     z-index: 2;
     position: absolute;
-    left: 10%;
-    width: 80%;
+    bottom: 18%;
+    width: 100%;
     height: 3rem;
-    display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: rgba(0,0,0,0.5)
