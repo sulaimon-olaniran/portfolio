@@ -14,6 +14,10 @@
     border-bottom-right-radius: 120px;
 }
 
+.projects-container p{
+    padding: 0 15px;
+}
+
 .projects-listing-container{
     min-height: 20rem;
     width: 100%;
