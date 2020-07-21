@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div className="projects-container" >
      <ScrollAnimation animateIn="tada" ><h1><span className="style-word-span" >My</span> Projects</h1></ScrollAnimation>
-     <p>These are the top 10 projects I've worked on so far;</p>
+     <ScrollAnimation animateIn="tada" ><p>These are the top 10 projects I've worked on so far;</p></ScrollAnimation>
 
      <div className="projects-listing-container" >
       {projects.map((project, i) => {

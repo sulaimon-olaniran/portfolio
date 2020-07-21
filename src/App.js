@@ -8,6 +8,7 @@ import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import Projects from './components/projects/Projects'
 import Skills from './components/skills/Skills'
+import Articles from './components/articles/Articles'
 
 function App() {
   return (
@@ -29,10 +30,15 @@ function App() {
       <Element name="projectsection" >
         <Projects />
       </Element>
+      
+      <Element name="articlesection" >
+        <Articles />
+      </Element>
 
       <Element name="contactsection" >
         <Contact />
       </Element>
+
 
       <Footer />
 

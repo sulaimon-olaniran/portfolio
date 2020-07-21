@@ -5,6 +5,7 @@
     align-items: center;
     overflow: hidden;
     margin: 20px 0;
+    position: relative;
 }
 
 .each-image-container{
@@ -56,6 +57,10 @@
     align-items: center;
     justify-content: center;
     padding: 10px;
+}
+
+.project-details-container .project-summary p{
+    padding: 0;
 }
 
 a{
