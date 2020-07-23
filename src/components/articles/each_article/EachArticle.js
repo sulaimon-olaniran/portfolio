@@ -6,7 +6,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 
 const EachArticle = ({ article }) => {
     return (
-        <ScrollAnimation ScrollAnimation animateIn='bounceInUp' className="each-article-container">
+        <ScrollAnimation ScrollAnimation animateIn='bounceIn' animateOut="bounceOut" className="each-article-container">
             <h3>{article.title}</h3>
 
             <div className="article-cover-image">
