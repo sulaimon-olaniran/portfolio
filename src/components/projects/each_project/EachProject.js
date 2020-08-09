@@ -45,6 +45,7 @@ const EachProject = ({ project }) => {
                     <ArrowForwardIosIcon onClick={handleNext} color="secondary" fontSize="small" />
                 </div>
             </div>
+            
             <Collapse in={expand} timeout={500} unmountOnExit>
                 <div className="project-details-container" >
                     <div className="project-summary" >

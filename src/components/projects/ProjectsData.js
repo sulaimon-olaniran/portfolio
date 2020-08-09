@@ -32,6 +32,12 @@ import res_finder_four from './assets/res_finder_four.png'
 import res_finder_five from './assets/res_finder_five.png'
 import res_finder_six from './assets/res_finder_six.png'
 import react_calc_one from './assets/react_calc_one.png'
+import chat_one from './assets/chat_one.jpg'
+import chat_two from './assets/chat_two.png'
+import chat_three from './assets/chat_three.png'
+import chat_four from './assets/chat_four.png'
+import chat_five from './assets/chat_five.png'
+import chat_six from './assets/chat_six.png'
 
 export const projects = [ 
     {
@@ -117,12 +123,21 @@ export const projects = [
     },
 
     {
-        name : "OS Quiz",
+        name : "OS Web Quiz",
         techs : ["HTML", "SCSS", "CSS", "React", "Firebase", "Formik", "Email JS", "Material UI CSS", "Netlify"],
         images : [ quiz_one, quiz_two, quiz_three, quiz_four, quiz_five ],
         summary : "A quiz app using firebase as the backend help users create an account, take quizes, have their points recorded and go head to head with other users on the ranking table, hosted on Netlify.",
         codeUrl : "https://github.com/sulaimon-olaniran/react-quiz-webapp",
         liveUrl : "https://os-quiz.netlify.app/"
+    },
+
+    {
+        name : "OS Web Messenger",
+        techs : ['HTML', 'SCSS', 'React', 'Firebase', 'Formik', 'Material UI', 'Netlify'],
+        images : [chat_one, chat_three, chat_two, chat_four, chat_five, chat_six],
+        summary : "A web chat app for chatting, adding users and getting real time notifications which was integrated with firebase functions",
+        codeUrl : "https://os-messenger.netlify.app/",
+        liveUrl : "https://github.com/sulaimon-olaniran/react-web-chat"
     }
 
 ]

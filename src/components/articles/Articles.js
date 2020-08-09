@@ -13,7 +13,7 @@ const Articles = () => {
         axios.get('https://dev.to/api/articles?username=sulaimonolaniran')
         .then((response) =>{
             setArticlesData(response.data)
-            console.log(response.data)
+            //console.log(response.data)
         })
     }, [])
 

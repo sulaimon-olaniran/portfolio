@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="social-medias-container" >
                 <a href="https://github.com/sulaimon-olaniran" target="_blank" rel="noopener noreferrer" ><GitHubIcon color="primary" /></a>
                 <a href="https://codepen.io/Sulaimon-Olaniran" target="_blank" rel="noopener noreferrer" style={{color :"#3f50b5"}} >
-                    <i class="fa fa-codepen" aria-hidden="true"  style={{fontSize :"24px"}}>
+                    <i className="fa fa-codepen" aria-hidden="true"  style={{fontSize :"24px"}}>
                         <span style={{display : "none"}}>Codepen</span>
                     </i>
                 </a>

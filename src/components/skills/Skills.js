@@ -10,6 +10,7 @@ import redux from './assets/redux.png'
 import netlify from './assets/netlify.png'
 import emailjs from './assets/emailjs.png'
 import formik from './assets/formik.png'
+import node_js from './assets/node_js.png'
 import ScrollAnimation from 'react-animate-on-scroll'
 
 const Skills = () => {
@@ -97,6 +98,22 @@ const Skills = () => {
                         <img src={emailjs} alt="Email JS" />
                     </div>
                     <h4>Email JS</h4>
+                </ScrollAnimation>
+
+                <ScrollAnimation animateIn='bounceInUp' className="each-tech-container" duration={1.3}>
+                    <div className="tech-image-container" >
+                        <img src={react} alt="React Native" />
+                    </div>
+                    <h4>React Native</h4>
+                    <h4>(Learning)</h4>
+                </ScrollAnimation>
+
+                <ScrollAnimation animateIn='bounceInUp' className="each-tech-container" duration={1.3}>
+                    <div className="tech-image-container" >
+                        <img src={node_js} alt="Node JS" />
+                    </div>
+                    <h4>Node JS</h4>
+                    <h4>(Learning)</h4>
                 </ScrollAnimation>
 
             </div>
