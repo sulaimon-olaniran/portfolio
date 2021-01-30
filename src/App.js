@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-
+      <div className='main-contents-container'>
       <Element name="homesection" >
         <HomePage />
       </Element>
@@ -41,6 +41,7 @@ function App() {
 
 
       <Footer />
+      </div>
 
     </div>
   );

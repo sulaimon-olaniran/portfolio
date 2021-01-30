@@ -6,11 +6,27 @@
 }
 
 html, body{
-    max-width: 100%;
+    width: 100%;
     min-height: 100%;
    overflow-x: hidden;
 }
 body{
    font-family: 'Montserrat', serif;
    font-size: 1rem;
+}
+
+.main-contents-container{
+    width: 100%;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media(min-width :1300px){
+    .main-contents-container{
+        width: 1300px;
+    }
 }

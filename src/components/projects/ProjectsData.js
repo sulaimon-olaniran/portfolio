@@ -20,7 +20,7 @@ import pepsi_two from './assets/pepsi_two.png'
 import pepsi_three from './assets/pepsi_three.png'
 import pepsi_four from './assets/pepsi_four.png'
 import javascript_quiz_one from './assets/javascript_quiz_one.png'
-import tic_tac_toe_one from './assets/tic_tac_toe_one.png'
+//import tic_tac_toe_one from './assets/tic_tac_toe_one.png'
 import os_photos_one from './assets/os_photos_one.png'
 import os_photos_two from './assets/os_photos_two.png'
 import os_photos_three from './assets/os_photos_three.png'
@@ -31,23 +31,24 @@ import res_finder_three from './assets/res_finder_three.png'
 import res_finder_four from './assets/res_finder_four.png'
 import res_finder_five from './assets/res_finder_five.png'
 import res_finder_six from './assets/res_finder_six.png'
-import react_calc_one from './assets/react_calc_one.png'
+//import react_calc_one from './assets/react_calc_one.png'
 import chat_one from './assets/chat_one.jpg'
 import chat_two from './assets/chat_two.png'
 import chat_three from './assets/chat_three.png'
 import chat_four from './assets/chat_four.png'
 import chat_five from './assets/chat_five.png'
 import chat_six from './assets/chat_six.png'
+import instagram_text_logo from './assets/instagram_text_logo.png'
 
 export const projects = [ 
-    {
-        name : 'Simple JavaScript Tic-Tac-Toe',
-        techs : ['HTML', 'CSS', 'JavaScript'],
-        images : [tic_tac_toe_one],
-        summary : "not the cutest but one of My first projects writing JavaScript, the famous tic-tac-toe game, hosted on Codepen.",
-        codeUrl : "https://codepen.io/Sulaimon-Olaniran/pen/NWxzmVg",
-        liveUrl : "https://codepen.io/Sulaimon-Olaniran/pen/NWxzmVg"
-    },
+    // {
+    //     name : 'Simple JavaScript Tic-Tac-Toe',
+    //     techs : ['HTML', 'CSS', 'JavaScript'],
+    //     images : [tic_tac_toe_one],
+    //     summary : "not the cutest but one of My first projects writing JavaScript, the famous tic-tac-toe game, hosted on Codepen.",
+    //     codeUrl : "https://codepen.io/Sulaimon-Olaniran/pen/NWxzmVg",
+    //     liveUrl : "https://codepen.io/Sulaimon-Olaniran/pen/NWxzmVg"
+    // },
 
     {
         name : "Pepsi Landing Page",
@@ -58,14 +59,14 @@ export const projects = [
         liveUrl : "https://sulaimon-pepsi.netlify.app/"
     },
 
-    {
-        name : 'React Calculator',
-        techs : ['HTML', 'CSS', 'React'],
-        images : [react_calc_one],
-        summary : "This react calculator was my first app built ever using React",
-        codeUrl : 'https://github.com/sulaimon-olaniran/react-calculator',
-        liveUrl : 'https://sulaimon-olaniran.github.io/react-calculator/'
-    },
+    // {
+    //     name : 'React Calculator',
+    //     techs : ['HTML', 'CSS', 'React'],
+    //     images : [react_calc_one],
+    //     summary : "This react calculator was my first app built ever using React",
+    //     codeUrl : 'https://github.com/sulaimon-olaniran/react-calculator',
+    //     liveUrl : 'https://sulaimon-olaniran.github.io/react-calculator/'
+    // },
 
     {
         name : "Simple JavaScript Quiz",
@@ -136,8 +137,17 @@ export const projects = [
         techs : ['HTML', 'SCSS', 'React', 'Firebase', 'Formik', 'Material UI', 'Netlify'],
         images : [chat_one, chat_three, chat_two, chat_four, chat_five, chat_six],
         summary : "A web chat app for chatting, adding users and getting real time notifications which was integrated with firebase functions",
-        codeUrl : "https://os-messenger.netlify.app/",
-        liveUrl : "https://github.com/sulaimon-olaniran/react-web-chat"
+        codeUrl : "https://github.com/sulaimon-olaniran/react-web-chat",
+        liveUrl : "https://os-messenger.netlify.app/"
+    },
+
+    {
+        name : "Instagram Clone",
+        techs : ['HTML', 'SCSS', 'React', 'Firebase', 'Formik', 'Material UI', 'Redux', 'Netlify'],
+        images : [instagram_text_logo],
+        summary : "An Instagram web clone application, front-end built with React.js, styled with SCSS and Material-ui, state was managed with Redux, backend was handled with Firebase (firestore, functions, storage, authentication)",
+        codeUrl : "https://github.com/sulaimon-olaniran/instagram-web-clone",
+        liveUrl : "https://os-instagram-clone.netlify.app/"
     }
 
 ]
