@@ -84,7 +84,7 @@ const NavBar = () => {
                             </Zoom>
                         </Link>
 
-                        <a href="https://drive.google.com/file/d/1cQV99JLuSUAD3nMIxjqUGHRmOWj2GMNi/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
+                        <a href="https://drive.google.com/file/d/1espKfhvfWQtspU6cOdmPuWxhOomDp0ev/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
                             <Zoom in={drawer} style={{ transitionDelay: drawer ? '700ms' : '0ms' }}>
                                 <Button onClick={handleCloseLinksDrawer} color="primary" variant="outlined" size="small" >Resume</Button>
                             </Zoom>

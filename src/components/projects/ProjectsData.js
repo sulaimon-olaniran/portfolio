@@ -39,6 +39,7 @@ import chat_four from './assets/chat_four.png'
 import chat_five from './assets/chat_five.png'
 import chat_six from './assets/chat_six.png'
 import instagram_text_logo from './assets/instagram_text_logo.png'
+import exp_logo from './assets/exp_logo.png'
 
 export const projects = [ 
     // {
@@ -148,6 +149,15 @@ export const projects = [
         summary : "An Instagram web clone application, front-end built with React.js, styled with SCSS and Material-ui, state was managed with Redux, backend was handled with Firebase (firestore, functions, storage, authentication)",
         codeUrl : "https://github.com/sulaimon-olaniran/instagram-web-clone",
         liveUrl : "https://os-instagram-clone.netlify.app/"
+    },
+
+    {
+        name : "OS Experience",
+        techs : ['HTML', 'SCSS', 'React.Js', 'Node.Js', 'Express.js', 'MonogoDb', 'Mongoose', 'JWT', 'Formik', 'Material UI', 'Redux', 'Netlify',],
+        images : [exp_logo],
+        summary : "This app enables users to sign-up, create and share their basic life experiences, and each user has the ability to like, save, delete and comment on an experience as long as they are authenticated and their email verified.",
+        codeUrl : "https://github.com/sulaimon-olaniran/MERN-Experience-App",
+        liveUrl : "https://os-experience.netlify.app/"
     }
 
 ]

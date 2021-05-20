@@ -21,6 +21,11 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(249, 243, 244);
 }
 
 .tech-image-container{
@@ -40,7 +45,7 @@
     }
 
     .each-tech-container{
-        width: 30%;
-        margin: 25px 0;
+        width: 20%;
+        margin: 25px;
     }
 }

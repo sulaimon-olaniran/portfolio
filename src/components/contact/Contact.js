@@ -56,7 +56,7 @@ const Contact = ({ touched, errors, isSubmitting, status }) => {
     return (
         <div className="contact-container" >
             <ScrollAnimation animateIn="tada" ><h1>Contact <span className="style-word-span" >Me</span></h1></ScrollAnimation>
-            <ScrollAnimation animateIn="bounceInUp" duration={1.1} >
+            <ScrollAnimation animateIn="tada" duration={1.1} >
                 <Form>
                     <h3>Say Hello <span role="img" aria-label="tongouee" className="wave-icon" >👋</span></h3>
                     <Field as={TextField} type="text" name="name" label="Your name"
